@@ -22,7 +22,9 @@ document.addEventListener('DOMContentLoaded', function() {
             { name: "Caylene Nguyen", role: "little" },
             { name: "Alex Lam-Tang", role: "little" },
             { name: "Bao To", role: "big" },
-            { name: "Conor Lee", role: "little" }
+            { name: "Conor Lee", role: "little" },
+            { name: "Tina", role: "big" },
+            { name: "Kelly Trinh", role: "little" }
         ],
         "Fam 2": [
             { name: "Ruby Ho", role: "big" },
