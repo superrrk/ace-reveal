@@ -725,6 +725,36 @@ body {
     box-shadow: 0 4px 12px rgba(255, 140, 66, 0.15);
 }
 
+.family-separator {
+    height: 2px;
+    background: linear-gradient(90deg, transparent, rgba(220, 20, 60, 0.3), transparent);
+    margin: 15px 0;
+    border-radius: 1px;
+}
+
+.family-member.special {
+    background: rgba(128, 128, 128, 0.08);
+    border-left: 4px solid #888;
+    box-shadow: 0 2px 8px rgba(128, 128, 128, 0.1);
+    padding: 8px 12px;
+    border-radius: 12px;
+    transition: all 0.3s ease;
+    position: relative;
+}
+
+.family-member.special:hover {
+    background: rgba(128, 128, 128, 0.12);
+    transform: translateX(3px);
+    box-shadow: 0 4px 12px rgba(128, 128, 128, 0.15);
+}
+
+.family-member.special .member-name {
+    color: #555;
+    font-size: 1rem;
+    letter-spacing: 0.3px;
+    font-style: italic;
+}
+
 .member-role {
     font-weight: 600;
     font-size: 0.85rem;

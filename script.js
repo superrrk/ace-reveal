@@ -85,12 +85,34 @@ document.addEventListener('DOMContentLoaded', function() {
             html += `<div class="family-group">
                 <h4>${familyName}</h4>`;
             
-            familyData[familyName].forEach(member => {
-                html += `<div class="family-member ${member.role}">
-                    <span class="member-role ${member.role}">${member.role === 'big' ? (['Alex', 'Joseph', 'Conor', 'Kyle', 'Winston', 'Jordan', 'Kai', 'Raymond', 'Henry', 'Donald', 'Victor', 'Vinh', 'Kiet', 'Bao', 'Tam', 'Brian'].some(name => member.name.toLowerCase().includes(name.toLowerCase())) ? 'Anh' : 'Chị') : 'Em'}</span>
-                    <span class="member-name">${member.name}</span>
-                </div>`;
-            });
+            // Special handling for Fam 5
+            if (familyName === "Fam 5") {
+                // First 3 members (Thuyvy, Mia, Ngan)
+                familyData[familyName].slice(0, 3).forEach(member => {
+                    html += `<div class="family-member ${member.role}">
+                        <span class="member-role ${member.role}">${member.role === 'big' ? (['Alex', 'Joseph', 'Conor', 'Kyle', 'Winston', 'Jordan', 'Kai', 'Raymond', 'Henry', 'Donald', 'Victor', 'Vinh', 'Kiet', 'Bao', 'Tam', 'Brian'].some(name => member.name.toLowerCase().includes(name.toLowerCase())) ? 'Anh' : 'Chị') : 'Em'}</span>
+                        <span class="member-name">${member.name}</span>
+                    </div>`;
+                });
+                
+                // Separator line
+                html += `<div class="family-separator"></div>`;
+                
+                // Last 4 members (Thia, Eva, Linh, Stephanie) - no role labels
+                familyData[familyName].slice(3).forEach(member => {
+                    html += `<div class="family-member special">
+                        <span class="member-name">${member.name}</span>
+                    </div>`;
+                });
+            } else {
+                // Regular handling for other families
+                familyData[familyName].forEach(member => {
+                    html += `<div class="family-member ${member.role}">
+                        <span class="member-role ${member.role}">${member.role === 'big' ? (['Alex', 'Joseph', 'Conor', 'Kyle', 'Winston', 'Jordan', 'Kai', 'Raymond', 'Henry', 'Donald', 'Victor', 'Vinh', 'Kiet', 'Bao', 'Tam', 'Brian'].some(name => member.name.toLowerCase().includes(name.toLowerCase())) ? 'Anh' : 'Chị') : 'Em'}</span>
+                        <span class="member-name">${member.name}</span>
+                    </div>`;
+                });
+            }
             
             html += '</div>';
         });
