@@ -105,8 +105,8 @@ document.addEventListener('DOMContentLoaded', function() {
                     </div>`;
                 });
             } else if (familyName === "Fam 2") {
-                // First 8 members (Ruby, Kyle, Quynh Anh, Lily, Hana, Anna Pho, Lyna, Lindsay)
-                familyData[familyName].slice(0, 8).forEach(member => {
+                // First 6 members (Ruby, Kyle, Quynh Anh, Lily, Hana, Anna Pho)
+                familyData[familyName].slice(0, 6).forEach(member => {
                     html += `<div class="family-member ${member.role}">
                         <span class="member-role ${member.role}">${member.role === 'big' ? (['Alex', 'Joseph', 'Conor', 'Kyle', 'Winston', 'Jordan', 'Kai', 'Raymond', 'Henry', 'Donald', 'Victor', 'Vinh', 'Kiet', 'Bao', 'Tam', 'Brian'].some(name => member.name.toLowerCase().includes(name.toLowerCase())) ? 'Anh' : 'Chị') : 'Em'}</span>
                         <span class="member-name">${member.name}</span>
@@ -116,8 +116,8 @@ document.addEventListener('DOMContentLoaded', function() {
                 // Separator line
                 html += `<div class="family-separator"></div>`;
                 
-                // Last member (Mabel Vo) - no role label
-                familyData[familyName].slice(8).forEach(member => {
+                // Last 3 members (Lyna, Lindsay, Mabel) - no role labels
+                familyData[familyName].slice(6).forEach(member => {
                     html += `<div class="family-member special">
                         <span class="member-name">${member.name}</span>
                     </div>`;
