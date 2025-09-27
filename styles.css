@@ -10,13 +10,13 @@ body {
     background: #0a0a0a;
     min-height: 100vh;
     display: flex;
-    align-items: flex-start;
+    align-items: center;
     justify-content: center;
     overflow-y: auto;
     overflow-x: hidden;
     position: relative;
     -webkit-overflow-scrolling: touch;
-    padding: 50px 20px;
+    padding: 20px;
 }
 
 /* Background */
@@ -970,9 +970,9 @@ body {
     }
     
     .letter {
-        width: 300px;
-        padding: 12px;
-        max-height: 80vh;
+        width: 320px;
+        padding: 15px;
+        max-height: 85vh;
         max-width: 95vw;
     }
     
@@ -1064,9 +1064,9 @@ body {
     }
     
     .letter {
-        width: 280px;
-        padding: 10px;
-        max-height: 75vh;
+        width: 300px;
+        padding: 12px;
+        max-height: 80vh;
         max-width: 95vw;
     }
     
