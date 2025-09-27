@@ -61,8 +61,8 @@ document.addEventListener('DOMContentLoaded', function() {
             { name: "Mia Le", role: "little" },
             { name: "Ngan Nguyen (2029)", role: "little" },
             { name: "Stephanie Tran", role: "big" },
-            { name: "Thia Joy Ostrander", role: "little" },
-            { name: "Eva Stern", role: "big" },
+            { name: "Thia Joy Ostrander", role: "big" },
+            { name: "Eva Stern", role: "little" },
             { name: "Linh Dang", role: "little" }
         ],
         "Fam 6": [
