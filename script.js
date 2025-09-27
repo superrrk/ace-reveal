@@ -85,8 +85,44 @@ document.addEventListener('DOMContentLoaded', function() {
             html += `<div class="family-group">
                 <h4>${familyName}</h4>`;
             
-            // Special handling for Fam 5
-            if (familyName === "Fam 5") {
+            // Special handling for Fam 1, Fam 2, and Fam 5
+            if (familyName === "Fam 1") {
+                // First 8 members (Chante, Cathy, Joseph, Kayla, Caylene, Alex, Bao, Conor)
+                familyData[familyName].slice(0, 8).forEach(member => {
+                    html += `<div class="family-member ${member.role}">
+                        <span class="member-role ${member.role}">${member.role === 'big' ? (['Alex', 'Joseph', 'Conor', 'Kyle', 'Winston', 'Jordan', 'Kai', 'Raymond', 'Henry', 'Donald', 'Victor', 'Vinh', 'Kiet', 'Bao', 'Tam', 'Brian'].some(name => member.name.toLowerCase().includes(name.toLowerCase())) ? 'Anh' : 'Chị') : 'Em'}</span>
+                        <span class="member-name">${member.name}</span>
+                    </div>`;
+                });
+                
+                // Separator line
+                html += `<div class="family-separator"></div>`;
+                
+                // Last 2 members (Tina, Kelly Trinh) - no role labels
+                familyData[familyName].slice(8).forEach(member => {
+                    html += `<div class="family-member special">
+                        <span class="member-name">${member.name}</span>
+                    </div>`;
+                });
+            } else if (familyName === "Fam 2") {
+                // First 8 members (Ruby, Kyle, Quynh Anh, Lily, Hana, Anna Pho, Lyna, Lindsay)
+                familyData[familyName].slice(0, 8).forEach(member => {
+                    html += `<div class="family-member ${member.role}">
+                        <span class="member-role ${member.role}">${member.role === 'big' ? (['Alex', 'Joseph', 'Conor', 'Kyle', 'Winston', 'Jordan', 'Kai', 'Raymond', 'Henry', 'Donald', 'Victor', 'Vinh', 'Kiet', 'Bao', 'Tam', 'Brian'].some(name => member.name.toLowerCase().includes(name.toLowerCase())) ? 'Anh' : 'Chị') : 'Em'}</span>
+                        <span class="member-name">${member.name}</span>
+                    </div>`;
+                });
+                
+                // Separator line
+                html += `<div class="family-separator"></div>`;
+                
+                // Last member (Mabel Vo) - no role label
+                familyData[familyName].slice(8).forEach(member => {
+                    html += `<div class="family-member special">
+                        <span class="member-name">${member.name}</span>
+                    </div>`;
+                });
+            } else if (familyName === "Fam 5") {
                 // First 3 members (Thuyvy, Mia, Ngan)
                 familyData[familyName].slice(0, 3).forEach(member => {
                     html += `<div class="family-member ${member.role}">
