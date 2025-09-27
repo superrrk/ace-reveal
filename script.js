@@ -41,7 +41,7 @@ document.addEventListener('DOMContentLoaded', function() {
             { name: "Kiet Anh Ma", role: "big" },
             { name: "Winston Vuong", role: "little" },
             { name: "Jordan Pham", role: "little" },
-            { name: "Kai Do", role: "little" },
+            { name: "Kai Do", role: "big" },
             { name: "Raymond Vo", role: "little" },
             { name: "Tiffany Vo", role: "big" },
             { name: "Trang Truong", role: "little" },
