@@ -650,6 +650,21 @@ body {
     font-weight: 500;
 }
 
+.next-steps-section {
+    margin-top: 30px;
+    padding-top: 20px;
+    border-top: 2px solid rgba(220, 20, 60, 0.2);
+    text-align: center;
+}
+
+.next-steps-section h3 {
+    font-size: 1.3rem;
+    color: #dc143c;
+    margin-bottom: 20px;
+    text-align: center;
+    font-weight: 700;
+}
+
 .families-title {
     font-size: 1.6rem;
     color: #dc143c;
