@@ -1073,6 +1073,14 @@ body {
         padding: 4px 6px;
     }
     
+    .family-member.special {
+        gap: 10px;
+        margin-bottom: 4px;
+        padding: 4px 6px;
+        display: flex;
+        align-items: center;
+    }
+    
     .member-name {
         font-weight: 400;
     }
@@ -1141,6 +1149,14 @@ body {
         gap: 8px;
         margin-bottom: 3px;
         padding: 3px 5px;
+    }
+    
+    .family-member.special {
+        gap: 8px;
+        margin-bottom: 3px;
+        padding: 3px 5px;
+        display: flex;
+        align-items: center;
     }
     
     .member-name {
