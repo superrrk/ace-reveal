@@ -632,6 +632,24 @@ body {
     line-height: 1.4;
 }
 
+.family-name-note {
+    text-align: center;
+    margin-top: 15px;
+    padding: 12px;
+    background: rgba(220, 20, 60, 0.05);
+    border-radius: 8px;
+    border: 1px solid rgba(220, 20, 60, 0.1);
+}
+
+.family-name-note p {
+    margin: 0;
+    font-size: 0.85rem;
+    color: #dc143c;
+    font-style: italic;
+    line-height: 1.4;
+    font-weight: 500;
+}
+
 .families-title {
     font-size: 1.6rem;
     color: #dc143c;
