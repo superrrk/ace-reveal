@@ -122,6 +122,24 @@ document.addEventListener('DOMContentLoaded', function() {
                         <span class="member-name">${member.name}</span>
                     </div>`;
                 });
+            } else if (familyName === "Fam 3") {
+                // First 5 members (Kiet, Winston, Jordan, Kai, Raymond)
+                familyData[familyName].slice(0, 5).forEach(member => {
+                    html += `<div class="family-member ${member.role}">
+                        <span class="member-role ${member.role}">${member.role === 'big' ? (['Alex', 'Joseph', 'Conor', 'Kyle', 'Winston', 'Jordan', 'Kai', 'Raymond', 'Henry', 'Donald', 'Victor', 'Vinh', 'Kiet', 'Bao', 'Tam', 'Brian'].some(name => member.name.toLowerCase().includes(name.toLowerCase())) ? 'Anh' : 'Chị') : 'Em'}</span>
+                        <span class="member-name">${member.name}</span>
+                    </div>`;
+                });
+                
+                // Separator line
+                html += `<div class="family-separator"></div>`;
+                
+                // Last 3 members (Tiffany, Trang, Tam) - no role labels
+                familyData[familyName].slice(5).forEach(member => {
+                    html += `<div class="family-member special">
+                        <span class="member-name">${member.name}</span>
+                    </div>`;
+                });
             } else if (familyName === "Fam 5") {
                 // First 3 members (Thuyvy, Mia, Ngan)
                 familyData[familyName].slice(0, 3).forEach(member => {
