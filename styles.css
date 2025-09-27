@@ -598,6 +598,23 @@ body {
     transform: translateY(0);
 }
 
+.adjustment-note {
+    text-align: center;
+    margin-top: 20px;
+    padding: 15px;
+    background: rgba(220, 20, 60, 0.05);
+    border-radius: 10px;
+    border: 1px solid rgba(220, 20, 60, 0.1);
+}
+
+.adjustment-note p {
+    margin: 0;
+    font-size: 0.9rem;
+    color: #666;
+    font-style: italic;
+    line-height: 1.4;
+}
+
 .families-title {
     font-size: 1.6rem;
     color: #dc143c;
