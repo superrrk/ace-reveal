@@ -472,15 +472,17 @@ body {
     visibility: hidden;
     transition: all 1s ease-in-out;
     z-index: 5;
-    max-height: 90vh;
+    max-height: 85vh;
+    max-width: 90vw;
     overflow-y: auto;
     min-height: 500px;
+    margin: 20px;
 }
 
 .letter.revealed {
     opacity: 1;
     visibility: visible;
-    transform: translate(-50%, -50%) translateY(-40px) scale(1.02);
+    transform: translate(-50%, -50%) translateY(-20px) scale(1.02);
     z-index: 15;
 }
 
@@ -952,7 +954,9 @@ body {
     .letter {
         width: 300px;
         padding: 12px;
-        max-height: 85vh;
+        max-height: 80vh;
+        max-width: 95vw;
+        margin: 15px;
     }
     
     .letter.revealed {
@@ -1045,7 +1049,9 @@ body {
     .letter {
         width: 280px;
         padding: 10px;
-        max-height: 80vh;
+        max-height: 75vh;
+        max-width: 95vw;
+        margin: 10px;
     }
     
     .envelope-ace {
