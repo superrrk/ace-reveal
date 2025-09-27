@@ -615,6 +615,23 @@ body {
     line-height: 1.4;
 }
 
+.gray-members-note {
+    text-align: center;
+    margin-top: 15px;
+    padding: 12px;
+    background: rgba(128, 128, 128, 0.05);
+    border-radius: 8px;
+    border: 1px solid rgba(128, 128, 128, 0.1);
+}
+
+.gray-members-note p {
+    margin: 0;
+    font-size: 0.85rem;
+    color: #777;
+    font-style: italic;
+    line-height: 1.4;
+}
+
 .families-title {
     font-size: 1.6rem;
     color: #dc143c;
