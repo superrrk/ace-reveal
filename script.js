@@ -15,55 +15,53 @@ document.addEventListener('DOMContentLoaded', function() {
     // Family data
     const familyData = {
         "Fam 1": [
-            { name: "Chante", role: "big" },
-            { name: "Cathy", role: "little" },
-            { name: "Joseph", role: "little" },
+            { name: "Chante Vu Nguyen", role: "big" },
+            { name: "Cathy Nguyen", role: "little" },
+            { name: "Joseph Leisz", role: "little" },
             { name: "Kayla Pham", role: "big" },
-            { name: "Caylene", role: "little" },
-            { name: "Alex", role: "little" },
+            { name: "Caylene Nguyen", role: "little" },
+            { name: "Alex Lam-Tang", role: "little" },
             { name: "Bao To", role: "big" },
-            { name: "Conor Lee", role: "little" },
-            { name: "Tina", role: "big" },
-            { name: "Kelly Trinh", role: "little" }
+            { name: "Conor Lee", role: "little" }
         ],
         "Fam 2": [
-            { name: "Ruby", role: "big" },
-            { name: "Kyle", role: "little" },
+            { name: "Ruby Ho", role: "big" },
+            { name: "Kyle Nguyen", role: "little" },
             { name: "Quynh Anh", role: "little" },
-            { name: "Lily", role: "big" },
-            { name: "Hana", role: "little" },
+            { name: "Lily Pham", role: "big" },
+            { name: "Hana Parker", role: "little" },
             { name: "Anna Pho", role: "little" },
-            { name: "Lyna", role: "big" },
-            { name: "Lindsay", role: "little" },
-            { name: "Mabel", role: "big" }
+            { name: "Lyna Huynh", role: "big" },
+            { name: "Lindsay Phung", role: "little" },
+            { name: "Mabel Vo", role: "big" }
         ],
         "Fam 3": [
-            { name: "Kiet", role: "big" },
+            { name: "Kiet Anh Ma", role: "big" },
             { name: "Winston Vuong", role: "little" },
             { name: "Jordan Pham", role: "little" },
-            { name: "Kai", role: "big" },
+            { name: "Kai Do", role: "big" },
             { name: "Raymond Vo", role: "little" },
-            { name: "Tiff", role: "big" },
-            { name: "Trang", role: "little" },
-            { name: "Tam", role: "big" }
+            { name: "Tiffany Vo", role: "big" },
+            { name: "Trang Truong", role: "little" },
+            { name: "Tam Truong", role: "big" }
         ],
         "Fam 4": [
-            { name: "Justine", role: "big" },
+            { name: "Justine Pui Ying Mach", role: "big" },
             { name: "Luciana Piro", role: "little" },
             { name: "Maddie Rejab", role: "little" },
             { name: "Lilian Nguyen", role: "big" },
             { name: "Kaili Kirschbaum", role: "little" },
             { name: "Minh Anh Bui", role: "little" },
-            { name: "Ngan Nguyen (2028)", role: "big" },
+            { name: "Ngan Nguyen (oregon 2028)", role: "big" },
             { name: "Henry Do", role: "little" },
             { name: "Donald Chu", role: "little" }
         ],
         "Fam 5": [
-            { name: "Thuyvy", role: "big" },
+            { name: "Thuyvy Tran", role: "big" },
             { name: "Mia Le", role: "little" },
-            { name: "Ngan Nguyen (2029)", role: "little" },
-            { name: "Stephanie", role: "big" },
-            { name: "Thia", role: "little" },
+            { name: "Ngan Nguyen (syracuse 2029)", role: "little" },
+            { name: "Stephanie Tran", role: "big" },
+            { name: "Thia Joy Ostrander", role: "little" },
             { name: "Eva Stern", role: "big" },
             { name: "Linh Dang", role: "little" }
         ],
