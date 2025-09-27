@@ -52,14 +52,14 @@ document.addEventListener('DOMContentLoaded', function() {
             { name: "Lilian Nguyen", role: "big" },
             { name: "Kaili Kirschbaum", role: "little" },
             { name: "Minh Anh Bui", role: "little" },
-            { name: "Ngan Nguyen (oregon 2028)", role: "big" },
+            { name: "Ngan Nguyen (2028)", role: "big" },
             { name: "Henry Do", role: "little" },
             { name: "Donald Chu", role: "little" }
         ],
         "Fam 5": [
             { name: "Thuyvy Tran", role: "big" },
             { name: "Mia Le", role: "little" },
-            { name: "Ngan Nguyen (syracuse 2029)", role: "little" },
+            { name: "Ngan Nguyen (2029)", role: "little" },
             { name: "Stephanie Tran", role: "big" },
             { name: "Thia Joy Ostrander", role: "little" },
             { name: "Eva Stern", role: "big" },
