@@ -742,6 +742,8 @@ body {
     border-radius: 12px;
     transition: all 0.3s ease;
     position: relative;
+    display: flex;
+    align-items: center;
 }
 
 .family-member.special:hover {
