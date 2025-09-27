@@ -15,7 +15,7 @@ ACE (Anh Chị Em) is VSA's Bigs and Littles program that pairs upperclassmen (A
 
 ## Live Website
 
-Visit the live website: [Your GitHub Pages URL will go here]
+Visit the live website: [https://superrrk.github.io/ace-reveal/]([url](https://superrrk.github.io/ace-reveal/))
 
 ## Contact
 
