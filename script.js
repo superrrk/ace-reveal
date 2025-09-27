@@ -60,7 +60,7 @@ document.addEventListener('DOMContentLoaded', function() {
             { name: "Thuyvy Tran", role: "big" },
             { name: "Mia Le", role: "little" },
             { name: "Ngan Nguyen (2029)", role: "little" },
-            { name: "Stephanie Tran", role: "big" },
+            { name: "Stephanie Tran", role: "little" },
             { name: "Thia Joy Ostrander", role: "big" },
             { name: "Eva Stern", role: "little" },
             { name: "Linh Dang", role: "little" }
