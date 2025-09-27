@@ -750,9 +750,9 @@ body {
 }
 
 .family-member.special {
-    background: rgba(128, 128, 128, 0.15) !important;
-    border-left: 4px solid #666 !important;
-    box-shadow: 0 2px 8px rgba(128, 128, 128, 0.2) !important;
+    background: rgba(220, 20, 60, 0.08);
+    border-left: 4px solid #dc143c;
+    box-shadow: 0 2px 8px rgba(220, 20, 60, 0.1);
     gap: 14px;
     margin-bottom: 8px;
     padding: 8px 12px;
@@ -764,9 +764,9 @@ body {
 }
 
 .family-member.special:hover {
-    background: rgba(128, 128, 128, 0.25) !important;
+    background: rgba(220, 20, 60, 0.12);
     transform: translateX(3px);
-    box-shadow: 0 4px 12px rgba(128, 128, 128, 0.3) !important;
+    box-shadow: 0 4px 12px rgba(220, 20, 60, 0.15);
 }
 
 .family-member.special .member-name {
@@ -1096,8 +1096,8 @@ body {
         padding: 4px 6px;
         display: flex;
         align-items: center;
-        background: rgba(128, 128, 128, 0.15) !important;
-        border-left: 4px solid #666 !important;
+        background: rgba(220, 20, 60, 0.08);
+        border-left: 4px solid #dc143c;
     }
     
     .member-name {
@@ -1176,8 +1176,8 @@ body {
         padding: 3px 5px;
         display: flex;
         align-items: center;
-        background: rgba(128, 128, 128, 0.15) !important;
-        border-left: 4px solid #666 !important;
+        background: rgba(220, 20, 60, 0.08);
+        border-left: 4px solid #dc143c;
     }
     
     .member-name {
