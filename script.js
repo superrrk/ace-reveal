@@ -43,7 +43,7 @@ document.addEventListener('DOMContentLoaded', function() {
             { name: "Raymond Vo", role: "little" },
             { name: "Joseph Leisz", role: "big" },
             { name: "Jordan Pham", role: "little" },
-            { name: "Tiffany Vo", role: "big" },
+            { name: "Tiffany Tran", role: "big" },
             { name: "Trang Truong", role: "little" },
             { name: "Tam Truong", role: "big" }
         ],
