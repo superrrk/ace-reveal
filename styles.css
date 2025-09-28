@@ -731,14 +731,14 @@ body {
     margin: 0;
 }
 
-.instagram-section {
+.contact-section {
     margin-top: 25px;
     padding-top: 20px;
     border-top: 2px solid rgba(220, 20, 60, 0.2);
     text-align: center;
 }
 
-.instagram-section h3 {
+.contact-section h3 {
     font-size: 1.3rem;
     color: #dc143c;
     margin-bottom: 15px;
@@ -746,18 +746,24 @@ body {
     font-weight: 700;
 }
 
-.instagram-section p {
+.contact-section p {
     color: #333;
     font-size: 1rem;
     line-height: 1.5;
     margin-bottom: 20px;
 }
 
-.instagram-link-button {
+.contact-buttons {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.contact-button {
     display: inline-flex;
     align-items: center;
     gap: 8px;
-    background: linear-gradient(135deg, #dc143c, #b22222);
     color: white;
     text-decoration: none;
     padding: 12px 24px;
@@ -765,16 +771,30 @@ body {
     font-weight: 600;
     font-size: 1rem;
     transition: all 0.3s ease;
-    box-shadow: 0 4px 15px rgba(220, 20, 60, 0.3);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
 }
 
-.instagram-link-button:hover {
+.instagram-button {
+    background: linear-gradient(135deg, #E4405F, #C13584);
+}
+
+.instagram-button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(225, 48, 108, 0.4);
+    background: linear-gradient(135deg, #C13584, #833AB4);
+}
+
+.email-button {
+    background: linear-gradient(135deg, #dc143c, #b22222);
+}
+
+.email-button:hover {
     transform: translateY(-2px);
     box-shadow: 0 6px 20px rgba(220, 20, 60, 0.4);
     background: linear-gradient(135deg, #b22222, #8b0000);
 }
 
-.instagram-icon {
+.contact-icon {
     font-size: 1.1rem;
 }
 
@@ -1398,15 +1418,19 @@ body {
         font-size: 0.9rem;
     }
     
-    .instagram-section h3 {
+    .contact-section h3 {
         font-size: 1.1rem;
     }
     
-    .instagram-section p {
+    .contact-section p {
         font-size: 0.9rem;
     }
     
-    .instagram-link-button {
+    .contact-buttons {
+        gap: 10px;
+    }
+    
+    .contact-button {
         padding: 10px 20px;
         font-size: 0.9rem;
     }
