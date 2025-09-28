@@ -753,11 +753,12 @@ body {
     margin-bottom: 20px;
 }
 
-.contact-buttons {
+.contact-options {
     display: flex;
     gap: 15px;
     justify-content: center;
     flex-wrap: wrap;
+    align-items: center;
 }
 
 .contact-button {
@@ -784,14 +785,17 @@ body {
     background: linear-gradient(135deg, #C13584, #833AB4);
 }
 
-.email-button {
-    background: linear-gradient(135deg, #dc143c, #b22222);
-}
-
-.email-button:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 6px 20px rgba(220, 20, 60, 0.4);
-    background: linear-gradient(135deg, #b22222, #8b0000);
+.email-text {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    color: #333;
+    font-weight: 500;
+    font-size: 1rem;
+    padding: 12px 24px;
+    background: rgba(220, 20, 60, 0.05);
+    border-radius: 25px;
+    border: 1px solid rgba(220, 20, 60, 0.1);
 }
 
 .contact-icon {
@@ -1426,11 +1430,16 @@ body {
         font-size: 0.9rem;
     }
     
-    .contact-buttons {
+    .contact-options {
         gap: 10px;
     }
     
     .contact-button {
+        padding: 10px 20px;
+        font-size: 0.9rem;
+    }
+    
+    .email-text {
         padding: 10px 20px;
         font-size: 0.9rem;
     }
