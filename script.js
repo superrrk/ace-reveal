@@ -42,6 +42,7 @@ document.addEventListener('DOMContentLoaded', function() {
             { name: "Winston Vuong", role: "little" },
             { name: "Kai Do", role: "big" },
             { name: "Raymond Vo", role: "little" },
+            { name: "Kaylah Le", role: "little" },
             { name: "Joseph Leisz", role: "big" },
             { name: "Jordan Pham", role: "little" },
             { name: "Tiffany Pham", role: "big" },
@@ -73,7 +74,6 @@ document.addEventListener('DOMContentLoaded', function() {
             { name: "Victor Van", role: "little" },
             { name: "Nhi Duong", role: "big" },
             { name: "Kim Hoang", role: "little" },
-            { name: "Kaylah Le", role: "little" },
             { name: "Vinh Vuong", role: "big" },
             { name: "Han Luu Nguyen", role: "little" }
         ]
@@ -114,8 +114,8 @@ document.addEventListener('DOMContentLoaded', function() {
                     </div>`;
                 });
             } else if (familyName === "Fam 3") {
-                // First 6 members (Kiet, Winston, Kai, Raymond, Joseph, Jordan)
-                familyData[familyName].slice(0, 6).forEach(member => {
+                // First 7 members (Kiet, Winston, Kai, Raymond, Kaylah, Joseph, Jordan)
+                familyData[familyName].slice(0, 7).forEach(member => {
                     html += `<div class="family-member ${member.role}">
                         <span class="member-role ${member.role}">${member.role === 'big' ? (['Alex', 'Joseph', 'Conor', 'Kyle', 'Winston', 'Jordan', 'Kai', 'Raymond', 'Henry', 'Donald', 'Victor', 'Vinh', 'Kiet', 'Bao', 'Tam', 'Brian'].some(name => member.name.toLowerCase().includes(name.toLowerCase())) ? 'Anh' : 'Chị') : 'Em'}</span>
                         <span class="member-name">${member.name}</span>
@@ -126,7 +126,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 html += `<div class="family-separator"></div>`;
                 
                 // Last 3 members (Tiffany, Trang, Tam) - no role labels
-                familyData[familyName].slice(6).forEach(member => {
+                familyData[familyName].slice(7).forEach(member => {
                     html += `<div class="family-member special">
                         <span class="member-name">${member.name}</span>
                     </div>`;
